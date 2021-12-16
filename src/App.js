@@ -39,6 +39,7 @@ let divs = [];
 for (let i = 0; i < hehu.length; i++) {
   divs.push(divDOthings(hehu[i]));
   divs.push(<br />);
+  console.log(hehu);
 }
 
 export default function App() {
@@ -46,7 +47,7 @@ export default function App() {
     <div className="App">
       <h1>Name</h1>
 
-      <h2>Names</h2>
+      <h2>Names, Pronouns, Graduation Dates, Favorite Colors</h2>
       {divs}
     </div>
   );
